@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Boom
- *
- */
-module UdpQOTD {
-}
