@@ -32,7 +32,8 @@ public class Rfc865UdpClient {
 	try {
 
 		// 2. Send UDP request to server
-		//my Client IP Address: 172.21.148.66
+		// my Client IP Address: 172.21.148.66
+		// ipconfig/all in Terminal to check
 		byte[] buf = "Hu Wanyu, TS5, <172.21.148.66>".getBytes("UTF-8");
 		DatagramPacket request = new DatagramPacket(buf, buf.length);
 		socket.send(request);
